@@ -10,6 +10,9 @@
   },
   "compileOnSave": true,
   "include": [
+    /** sometimes i have to change this to ONLY test so that
+    compiled directories dont get read wrong in firebase.
+    */
     "src"
   ]
 }
