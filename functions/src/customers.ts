@@ -52,3 +52,4 @@ export const getOrCreateCustomer = async (uid: string) => {
     return stripe.customers.retrieve(customerId);
   }
 }
+
